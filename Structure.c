@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 struct employee {
   char name[50];
   int phno,age;
@@ -21,7 +22,7 @@ int main()
 
  for(i=0;i<n;i++)
   { 
-    gets(emp[i].name)
+    gets(emp[i].name);
     scanf(" %d %d %d",&emp[i].phno,&emp[i].age,&emp[i].salary);
   }
 
